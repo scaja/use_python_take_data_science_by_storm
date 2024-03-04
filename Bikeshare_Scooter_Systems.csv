@@ -1,0 +1,796 @@
+objectid,placeid,city,state,year,dockid,docknm
+1,AL001,Birmingham,AL,2015,63,Zyp BikeShare
+2,AZ006,Phoenix,AZ,2015,37,Grid
+3,CA0025,San Diego,CA,2015,59,DiscoverBike (was DecoBike in 2016 and 2017)
+4,CA0026,San Francisco,CA,2015,42,Bay Area BikeShare (became Ford GoBike 06/28/2017 then became Bay Wheels 06/2019)
+5,CA0029,San Ramon,CA,2015,75,BriteBikes
+6,CA0033,Santa Monica,CA,2015,39,Breeze
+7,CO0038,Aspen,CO,2015,27,WE-cycle
+8,CO0040,Boulder,CO,2015,11,Boulder B-cycle
+9,CO0042,Denver,CO,2015,7,Denver B-cycle
+10,DC0046,Washington,DC,2015,56,Capital Bikeshare
+11,FL0050,Fort Lauderdale,FL,2015,12,Broward B-cycle
+12,FL0053,Key West,FL,2015,61,Instabike
+13,FL0054,Lakeland,FL,2015,69,Swan City Cycle
+14,FL0055,Miami,FL,2015,5,Citi Bike Miami
+15,FL0061,Orlando,FL,2015,32,Juice
+16,FL0064,Tampa,FL,2015,33,Coast Bike Share
+17,FL0065,West Palm Beach,FL,2015,31,Sky Bike WPB
+18,GA0068,Evans,GA,2015,45,Columbia County B-cycle
+19,GA0069,Savannah,GA,2015,46,CAT B-cycle
+20,GA0070,Smyrna,GA,2015,70,Smyrna Bike Share
+21,IA0073,Des Moines,IA,2015,14,Des Moines B-cycle
+22,ID0075,Boise,ID,2015,36,Boise Green Bike
+23,ID0076,Hailey,ID,2015,35,MR Bike Share
+24,IL0079,Chicago,IL,2015,60,Divvy
+25,IN0082,Carmel,IN,2015,64,Carmel Bike Share
+26,IN0086,Huntingburg,IN,2015,67,Zagster Huntingburg
+27,IN0087,Indianapolis,IN,2015,48,Indiana Pacers Bikeshare
+28,KS0090,Topeka,KS,2015,34,Topeka Metro Bikes
+29,MA0098,Boston,MA,2015,1,Hubway (03/2018 re-launched as Blue Bikes)
+30,MI00125,Ann Arbor,MI,2015,4,arborbike
+31,MI00126,Battle Creek,MI,2015,49,Battle Creek B-cycle
+32,MN00131,Hastings,MN,2015,66,Zagster Hastings
+33,MN00132,Minneapolis,MN,2015,25,Nice Ride Minnesota (became partially dockless in 2018)
+34,MO00137,Kansas City,MO,2015,18,Kansas City B-cycle
+35,NC00139,Charlotte,NC,2015,13,Charlotte B-cycle (became JoyRides Sep-2020)
+36,ND00144,Fargo,ND,2015,51,Great Rides
+37,NE00146,Omaha,NE,2015,16,Heartland B-cycle
+38,NJ00149,Hoboken,NJ,2015,2,Hudson Bike Share (now part of CitiBike)
+39,NM00153,Albuquerque,NM,2015,38,Bici (became PACE dockless in 2018)
+40,NY00159,Long Beach,NY,2015,55,"Sobi Long Beach, NY"
+41,NY00160,New York,NY,2015,3,Citi Bike
+42,OH00164,Cincinnati,OH,2015,57,Cincy RedBike Bike
+43,OH00165,Cleveland,OH,2015,71,Zagster Cleveland
+44,OH00166,Columbus,OH,2015,58,COGO
+45,OH00167,Dayton,OH,2015,47,Link Dayton B-cycle
+46,OK00173,Oklahoma City,OK,2015,40,Spokies
+47,OK00175,Tulsa,OK,2015,62,Townies
+48,OR00175,Ashland,OR,2015,68,Zagster Jackson County
+49,OR00178,Medford,OR,2015,68,Zagster Jackson County
+50,PA00181,Philadelphia,PA,2015,43,Inde'go
+51,PA00182,Pittsburgh,PA,2015,29,Healthy Ride (became POGOH in 2022)
+52,SC00185,Greenville,SC,2015,44,Greenville B-cycle
+53,SC00187,Spartanburg,SC,2015,23,Spartanburg B-cycle
+54,SD00188,Rapid City,SD,2015,30,Rapid City B-cycle
+55,TN00189,Chattanooga,TN,2015,54,Bike Chattanooga
+56,TN00192,Nashville,TN,2015,21,Nashville B-cycle
+57,TX00194,Austin,TX,2015,53,Austin B-cycle
+58,TX00196,Dallas,TX,2015,9,Fairpark B-cycle
+59,TX00198,El Paso,TX,2015,8,El Paso B-cycle
+60,TX00199,Fort Worth,TX,2015,10,Fort Worth B-cycle
+61,TX00201,Houston,TX,2015,17,Houston B-cycle
+62,TX00203,McAllen,TX,2015,28,McAllen B-cycle (RGV B-cycle)
+63,TX00205,San Antonio,TX,2015,22,San Antonio B-cycle
+64,UT00210,Salt Lake City,UT,2015,15,GreenBikes
+65,WA00225,Seattle,WA,2015,26,Pronto
+66,WI00228,Madison,WI,2015,20,Madison B-cycle
+67,WI00229,Milwaukee,WI,2015,50,Bublr Bikes
+68,AL001,Birmingham,AL,2016,63,Zyp BikeShare
+69,AZ006,Phoenix,AZ,2016,37,Grid
+70,CA0012,Beverly Hills,CA,2016,81,Beverly Hills Bikeshare
+71,CA0018,Long Beach,CA,2016,72,"Long Beach, CA Bikeshare"
+72,CA0019,Los Angeles,CA,2016,73,Metro Bike Share Los Angeles
+73,CA0025,San Diego,CA,2016,59,DiscoverBike (was DecoBike in 2016 and 2017)
+74,CA0026,San Francisco,CA,2016,42,Bay Area BikeShare (became Ford GoBike 06/28/2017 then became Bay Wheels 06/2019)
+75,CA0028,San Mateo,CA,2016,83,Bay Bikes (became DOCKLESS Lime Bikes in 2018)
+76,CA0029,San Ramon,CA,2016,75,BriteBikes
+77,CA0033,Santa Monica,CA,2016,39,Breeze
+78,CA0037,West Hollywood,CA,2016,80,WeHo Pedals
+79,CO0038,Aspen,CO,2016,27,WE-cycle
+80,CO0040,Boulder,CO,2016,11,Boulder B-cycle
+81,CO0041,Broomfield,CO,2016,93,Westminster
+82,CO0042,Denver,CO,2016,7,Denver B-cycle
+83,CO0043,Fort Collins,CO,2016,65,Fort Collins Bike Share (became PACE dockless in 2018)
+84,DC0046,Washington,DC,2016,56,Capital Bikeshare
+85,FL0047,Aventura,FL,2016,85,Aventura
+86,FL0050,Fort Lauderdale,FL,2016,12,Broward B-cycle
+87,FL0051,Gainesville,FL,2016,96,Gainesville
+88,FL0053,Key West,FL,2016,61,Instabike
+89,FL0054,Lakeland,FL,2016,69,Swan City Cycle
+90,FL0055,Miami,FL,2016,5,Citi Bike Miami
+91,FL0061,Orlando,FL,2016,32,Juice
+92,FL0064,Tampa,FL,2016,33,Coast Bike Share
+93,FL0065,West Palm Beach,FL,2016,31,Sky Bike WPB
+94,GA0066,Atlanta,GA,2016,77,Relay Bike Share
+95,GA0068,Evans,GA,2016,45,Columbia County B-cycle
+96,GA0069,Savannah,GA,2016,46,CAT B-cycle
+97,GA0070,Smyrna,GA,2016,70,Smyrna Bike Share
+98,IA0073,Des Moines,IA,2016,14,Des Moines B-cycle
+99,ID0075,Boise,ID,2016,36,Boise Green Bike
+100,ID0076,Hailey,ID,2016,35,MR Bike Share
+101,IL0077,Aurora,IL,2016,95,Aurora
+102,IL0079,Chicago,IL,2016,60,Divvy
+103,IN00233,Fort Wayne,IN,2016,98,Fort Wayne
+104,IN0082,Carmel,IN,2016,64,Carmel Bike Share
+105,IN0083,Columbus,IN,2016,86,columBike
+106,IN0086,Huntingburg,IN,2016,67,Zagster Huntingburg
+107,IN0087,Indianapolis,IN,2016,48,Indiana Pacers Bikeshare
+108,KS0090,Topeka,KS,2016,34,Topeka Metro Bikes
+109,MA0098,Boston,MA,2016,1,Hubway (03/2018 re-launched as Blue Bikes)
+110,MD00117,Baltimore,MD,2016,82,Baltimore Bikeshare
+111,MD00119,College Park,MD,2016,97,College Park
+112,MI00125,Ann Arbor,MI,2016,4,arborbike
+113,MI00126,Battle Creek,MI,2016,49,Battle Creek B-cycle
+114,MN00131,Hastings,MN,2016,66,Zagster Hastings
+115,MN00132,Minneapolis,MN,2016,25,Nice Ride Minnesota (became partially dockless in 2018)
+116,MO00137,Kansas City,MO,2016,18,Kansas City B-cycle
+117,NC00139,Charlotte,NC,2016,13,Charlotte B-cycle (became JoyRides Sep-2020)
+118,ND00144,Fargo,ND,2016,51,Great Rides
+119,NE00146,Omaha,NE,2016,16,Heartland B-cycle
+120,NJ00149,Hoboken,NJ,2016,2,Hudson Bike Share (now part of CitiBike)
+121,NM00153,Albuquerque,NM,2016,38,Bici (became PACE dockless in 2018)
+122,NV00154,Las Vegas,NV,2016,78,RTC Bikeshare
+123,NY00157,Buffalo,NY,2016,76,Reddy Bikes
+124,NY00159,Long Beach,NY,2016,55,"Sobi Long Beach, NY"
+125,NY00160,New York,NY,2016,3,Citi Bike
+126,OH00164,Cincinnati,OH,2016,57,Cincy RedBike Bike
+127,OH00165,Cleveland,OH,2016,"71, 79","Zagster Cleveland, UH Bikes"
+128,OH00166,Columbus,OH,2016,58,COGO
+129,OH00167,Dayton,OH,2016,47,Link Dayton B-cycle
+130,OK00173,Oklahoma City,OK,2016,40,Spokies
+131,OK00175,Tulsa,OK,2016,62,Townies
+132,OR00175,Ashland,OR,2016,68,Zagster Jackson County
+133,OR00176,Corvallis,OR,2016,94,Corvallis
+134,OR00178,Medford,OR,2016,68,Zagster Jackson County
+135,OR00179,Portland,OR,2016,74,BikeTown Portland
+136,PA00181,Philadelphia,PA,2016,43,Inde'go
+137,PA00182,Pittsburgh,PA,2016,29,Healthy Ride (became POGOH in 2022)
+138,SC00185,Greenville,SC,2016,44,Greenville B-cycle
+139,SC00187,Spartanburg,SC,2016,23,Spartanburg B-cycle
+140,SD00188,Rapid City,SD,2016,30,Rapid City B-cycle
+141,TN00189,Chattanooga,TN,2016,54,Bike Chattanooga
+142,TN00192,Nashville,TN,2016,21,Nashville B-cycle
+143,TX00194,Austin,TX,2016,53,Austin B-cycle
+144,TX00196,Dallas,TX,2016,9,Fairpark B-cycle
+145,TX00198,El Paso,TX,2016,8,El Paso B-cycle
+146,TX00199,Fort Worth,TX,2016,10,Fort Worth B-cycle
+147,TX00201,Houston,TX,2016,17,Houston B-cycle
+148,TX00203,McAllen,TX,2016,28,McAllen B-cycle (RGV B-cycle)
+149,TX00205,San Antonio,TX,2016,22,San Antonio B-cycle
+150,UT00210,Salt Lake City,UT,2016,15,GreenBikes
+151,WA00225,Seattle,WA,2016,26,Pronto
+152,WI00228,Madison,WI,2016,20,Madison B-cycle
+153,WI00229,Milwaukee,WI,2016,50,Bublr Bikes
+154,AL001,Birmingham,AL,2017,63,Zyp BikeShare
+155,AL002,Huntsville,AL,2017,88,"Huntsville (became PACE, hybrid dockless, in 2018)"
+156,AZ006,Phoenix,AZ,2017,37,Grid
+157,AZ009,Tucson,AZ,2017,110,tugo
+158,CA0012,Beverly Hills,CA,2017,81,Beverly Hills Bikeshare
+159,CA0013,Bishop,CA,2017,99,Eastside
+160,CA0018,Long Beach,CA,2017,72,"Long Beach, CA Bikeshare"
+161,CA0019,Los Angeles,CA,2017,73,Metro Bike Share Los Angeles
+162,CA0023,Oakland,CA,2017,42,Bay Area BikeShare (became Ford GoBike 06/28/2017 then became Bay Wheels 06/2019)
+163,CA0025,San Diego,CA,2017,59,DiscoverBike (was DecoBike in 2016 and 2017)
+164,CA0026,San Francisco,CA,2017,42,Bay Area BikeShare (became Ford GoBike 06/28/2017 then became Bay Wheels 06/2019)
+165,CA0028,San Mateo,CA,2017,83,Bay Bikes (became DOCKLESS Lime Bikes in 2018)
+166,CA0029,San Ramon,CA,2017,75,BriteBikes
+167,CA0033,Santa Monica,CA,2017,39,Breeze
+168,CA0037,West Hollywood,CA,2017,80,WeHo Pedals
+169,CO0038,Aspen,CO,2017,27,WE-cycle
+170,CO0040,Boulder,CO,2017,11,Boulder B-cycle
+171,CO0041,Broomfield,CO,2017,93,Westminster
+172,CO0042,Denver,CO,2017,7,Denver B-cycle
+173,CO0043,Fort Collins,CO,2017,65,Fort Collins Bike Share (became PACE dockless in 2018)
+174,CO0045,Longmont,CO,2017,90,Longmont
+175,DC0046,Washington,DC,2017,56,Capital Bikeshare
+176,FL0047,Aventura,FL,2017,85,Aventura
+177,FL0050,Fort Lauderdale,FL,2017,12,Broward B-cycle
+178,FL0051,Gainesville,FL,2017,96,Gainesville
+179,FL0053,Key West,FL,2017,61,Instabike
+180,FL0054,Lakeland,FL,2017,69,Swan City Cycle
+181,FL0055,Miami,FL,2017,5,Citi Bike Miami
+182,FL0061,Orlando,FL,2017,32,Juice
+183,FL0064,Tampa,FL,2017,33,Coast Bike Share
+184,FL0065,West Palm Beach,FL,2017,31,Sky Bike WPB
+185,GA0066,Atlanta,GA,2017,77,Relay Bike Share
+186,GA0067,Carrollton,GA,2017,91,Carrollton
+187,GA0068,Evans,GA,2017,45,Columbia County B-cycle
+188,GA0069,Savannah,GA,2017,46,CAT B-cycle
+189,GA0070,Smyrna,GA,2017,70,Smyrna Bike Share
+190,HI0072,Honolulu,HI,2017,111,Hawaii Bikibike
+191,IA0073,Des Moines,IA,2017,14,Des Moines B-cycle
+192,ID0075,Boise,ID,2017,36,Boise Green Bike
+193,ID0076,Hailey,ID,2017,35,MR Bike Share
+194,IL0077,Aurora,IL,2017,95,Aurora
+195,IL0078,Bloomington,IL,2017,100,Normal (Bikeshare 309)
+196,IL0079,Chicago,IL,2017,60,Divvy
+197,IL0080,Peoria,IL,2017,107,Peoria
+198,IN00233,Fort Wayne,IN,2017,98,Fort Wayne
+199,IN0082,Carmel,IN,2017,64,Carmel Bike Share
+200,IN0083,Columbus,IN,2017,86,columBike
+201,IN0087,Indianapolis,IN,2017,48,Indiana Pacers Bikeshare
+202,KS0090,Topeka,KS,2017,34,Topeka Metro Bikes
+203,KS0091,Wichita,KS,2017,89,Wichita
+204,KY0093,Louisville,KY,2017,102,Lou Velo
+205,LA0094,New Orleans,LA,2017,109,New Orleans Bikeshare
+206,MA00103,Marlborough,MA,2017,132,"City of Marlborough, MA"
+207,MA00111,Salem,MA,2017,108,Salem
+208,MA0098,Boston,MA,2017,1,Hubway (03/2018 re-launched as Blue Bikes)
+209,MD00117,Baltimore,MD,2017,82,Baltimore Bikeshare
+210,MD00118,Boyds,MD,2017,134,Montgomery Parks
+211,MD00119,College Park,MD,2017,97,College Park
+212,MD00124,Columbia,MD,2017,141,Howard County Bikeshare
+213,MI00125,Ann Arbor,MI,2017,4,arborbike
+214,MI00126,Battle Creek,MI,2017,49,Battle Creek B-cycle
+215,MI00127,Dearborn,MI,2017,103,Dearborn
+216,MI00128,Detroit,MI,2017,101,Mo Go
+217,MN00131,Hastings,MN,2017,66,Zagster Hastings
+218,MN00132,Minneapolis,MN,2017,25,Nice Ride Minnesota (became partially dockless in 2018)
+219,MO00137,Kansas City,MO,2017,18,Kansas City B-cycle
+220,NC00139,Charlotte,NC,2017,13,Charlotte B-cycle (became JoyRides Sep-2020)
+221,NC00143,Winston-Salem,NC,2017,105,Winston-Salem
+222,ND00144,Fargo,ND,2017,51,Great Rides
+223,NE00146,Omaha,NE,2017,16,Heartland B-cycle
+224,NH00147,Manchester,NH,2017,104,Manchester
+225,NH00148,Portsmouth,NH,2017,87,Portsmouth
+226,NJ00149,Hoboken,NJ,2017,2,Hudson Bike Share (now part of CitiBike)
+227,NM00153,Albuquerque,NM,2017,38,Bici (became PACE dockless in 2018)
+228,NV00154,Las Vegas,NV,2017,78,RTC Bikeshare
+229,NY00156,Albany,NY,2017,113,CDPHP
+230,NY00157,Buffalo,NY,2017,76,Reddy Bikes
+231,NY00159,Long Beach,NY,2017,55,"Sobi Long Beach, NY"
+232,NY00160,New York,NY,2017,3,Citi Bike
+233,OH00164,Cincinnati,OH,2017,57,Cincy RedBike Bike
+234,OH00165,Cleveland,OH,2017,"71, 79","Zagster Cleveland, UH Bikes"
+235,OH00166,Columbus,OH,2017,58,COGO
+236,OH00167,Dayton,OH,2017,47,Link Dayton B-cycle
+237,OK00173,Oklahoma City,OK,2017,40,Spokies
+238,OK00175,Tulsa,OK,2017,62,Townies
+239,OR00175,Ashland,OR,2017,68,Zagster Jackson County
+240,OR00176,Corvallis,OR,2017,94,Corvallis
+241,OR00178,Medford,OR,2017,68,Zagster Jackson County
+242,OR00179,Portland,OR,2017,74,BikeTown Portland
+243,PA00180,Harrisburg,PA,2017,122,Harrisburg
+244,PA00181,Philadelphia,PA,2017,43,Inde'go
+245,PA00182,Pittsburgh,PA,2017,29,Healthy Ride (became POGOH in 2022)
+246,SC00184,Charleston,SC,2017,84,Holy Spokes
+247,SC00185,Greenville,SC,2017,44,Greenville B-cycle
+248,SC00187,Spartanburg,SC,2017,23,Spartanburg B-cycle
+249,SD00188,Rapid City,SD,2017,30,Rapid City B-cycle
+250,TN00189,Chattanooga,TN,2017,54,Bike Chattanooga
+251,TN00192,Nashville,TN,2017,21,Nashville B-cycle
+252,TX00194,Austin,TX,2017,53,Austin B-cycle
+253,TX00195,Corpus Christi,TX,2017,92,Corpus Christi
+254,TX00196,Dallas,TX,2017,9,Fairpark B-cycle
+255,TX00198,El Paso,TX,2017,8,El Paso B-cycle
+256,TX00199,Fort Worth,TX,2017,10,Fort Worth B-cycle
+257,TX00201,Houston,TX,2017,17,Houston B-cycle
+258,TX00203,McAllen,TX,2017,28,McAllen B-cycle (RGV B-cycle)
+259,TX00205,San Antonio,TX,2017,22,San Antonio B-cycle
+260,UT00210,Salt Lake City,UT,2017,15,GreenBikes
+261,VA00217,Danville,VA,2017,133,"City of Danville, VA"
+262,VA00220,Richmond,VA,2017,136,RVA Bike Share
+263,VA00221,Roanoke,VA,2017,106,Roanoke
+264,WI00228,Madison,WI,2017,20,Madison B-cycle
+265,WI00229,Milwaukee,WI,2017,50,Bublr Bikes
+266,AL001,Birmingham,AL,2018,63,Zyp BikeShare
+267,AL002,Huntsville,AL,2018,88,"Huntsville (became PACE, hybrid dockless, in 2018)"
+268,AZ006,Phoenix,AZ,2018,37,Grid
+269,AZ009,Tucson,AZ,2018,110,tugo
+270,CA0012,Beverly Hills,CA,2018,81,Beverly Hills Bikeshare
+271,CA0018,Long Beach,CA,2018,72,"Long Beach, CA Bikeshare"
+272,CA0019,Los Angeles,CA,2018,73,Metro Bike Share Los Angeles
+273,CA0023,Oakland,CA,2018,42,Bay Area BikeShare (became Ford GoBike 06/28/2017 then became Bay Wheels 06/2019)
+274,CA0025,San Diego,CA,2018,59,DiscoverBike (was DecoBike in 2016 and 2017)
+275,CA0026,San Francisco,CA,2018,42,Bay Area BikeShare (became Ford GoBike 06/28/2017 then became Bay Wheels 06/2019)
+276,CA0029,San Ramon,CA,2018,75,BriteBikes
+277,CA0033,Santa Monica,CA,2018,39,Breeze
+278,CA0037,West Hollywood,CA,2018,80,WeHo Pedals
+279,CO0038,Aspen,CO,2018,27,WE-cycle
+280,CO0040,Boulder,CO,2018,11,Boulder B-cycle
+281,CO0042,Denver,CO,2018,7,Denver B-cycle
+282,CO0045,Longmont,CO,2018,90,Longmont
+283,DC0046,Washington,DC,2018,56,Capital Bikeshare
+284,FL00248,Fort Pierce/Port St Lucie,FL,2018,138,St Lucie County
+285,FL0047,Aventura,FL,2018,85,Aventura
+286,FL0050,Fort Lauderdale,FL,2018,12,Broward B-cycle
+287,FL0055,Miami,FL,2018,5,Citi Bike Miami
+288,FL0061,Orlando,FL,2018,32,Juice
+289,FL0064,Tampa,FL,2018,33,Coast Bike Share
+290,FL0065,West Palm Beach,FL,2018,31,Sky Bike WPB
+291,GA0066,Atlanta,GA,2018,77,Relay Bike Share
+292,GA0067,Carrollton,GA,2018,91,Carrollton
+293,GA0068,Evans,GA,2018,45,Columbia County B-cycle
+294,GA0070,Smyrna,GA,2018,70,Smyrna Bike Share
+295,HI0072,Honolulu,HI,2018,111,Hawaii Bikibike
+296,IA0073,Des Moines,IA,2018,14,Des Moines B-cycle
+297,ID0075,Boise,ID,2018,36,Boise Green Bike
+298,ID0076,Hailey,ID,2018,35,MR Bike Share
+299,IL0077,Aurora,IL,2018,95,Aurora
+300,IL0078,Bloomington,IL,2018,100,Normal (Bikeshare 309)
+301,IL0079,Chicago,IL,2018,60,Divvy
+302,IL0080,Peoria,IL,2018,107,Peoria
+303,IN0082,Carmel,IN,2018,64,Carmel Bike Share
+304,IN0083,Columbus,IN,2018,86,columBike
+305,IN0087,Indianapolis,IN,2018,48,Indiana Pacers Bikeshare
+306,KS0090,Topeka,KS,2018,34,Topeka Metro Bikes
+307,KS0091,Wichita,KS,2018,89,Wichita
+308,KY0093,Louisville,KY,2018,102,Lou Velo
+309,LA0094,New Orleans,LA,2018,109,New Orleans Bikeshare
+310,MA00103,Marlborough,MA,2018,132,"City of Marlborough, MA"
+311,MA00111,Salem,MA,2018,108,Salem
+312,MA00249,Amherst,MA,2018,139,ValleyBike
+313,MA0098,Boston,MA,2018,1,Hubway (03/2018 re-launched as Blue Bikes)
+314,MD00118,Boyds,MD,2018,134,Montgomery Parks
+315,MD00119,College Park,MD,2018,97,College Park
+316,MD00124,Columbia,MD,2018,141,Howard County Bikeshare
+317,MI00125,Ann Arbor,MI,2018,4,arborbike
+318,MI00126,Battle Creek,MI,2018,49,Battle Creek B-cycle
+319,MI00127,Dearborn,MI,2018,103,Dearborn
+320,MI00128,Detroit,MI,2018,101,Mo Go
+321,MN00132,Minneapolis,MN,2018,25,Nice Ride Minnesota (became partially dockless in 2018)
+322,MO00137,Kansas City,MO,2018,18,Kansas City B-cycle
+323,NC00139,Charlotte,NC,2018,13,Charlotte B-cycle (became JoyRides Sep-2020)
+324,NC00143,Winston-Salem,NC,2018,105,Winston-Salem
+325,ND00144,Fargo,ND,2018,51,Great Rides
+326,NE00145,Lincoln,NE,2018,120,BikeLNK
+327,NE00146,Omaha,NE,2018,16,Heartland B-cycle
+328,NH00147,Manchester,NH,2018,104,Manchester
+329,NH00148,Portsmouth,NH,2018,87,Portsmouth
+330,NJ00149,Hoboken,NJ,2018,2,Hudson Bike Share (now part of CitiBike)
+331,NJ00151,Morristown,NJ,2018,130,Morris Moves
+332,NV00154,Las Vegas,NV,2018,78,RTC Bikeshare
+333,NY00156,Albany,NY,2018,113,CDPHP
+334,NY00157,Buffalo,NY,2018,76,Reddy Bikes
+335,NY00159,Long Beach,NY,2018,55,"Sobi Long Beach, NY"
+336,NY00160,New York,NY,2018,3,Citi Bike
+337,OH00164,Cincinnati,OH,2018,57,Cincy RedBike Bike
+338,OH00165,Cleveland,OH,2018,79,UH Bikes
+339,OH00166,Columbus,OH,2018,58,COGO
+340,OH00167,Dayton,OH,2018,47,Link Dayton B-cycle
+341,OH00171,Toledo,OH,2018,126,ToleGo
+342,OK00173,Oklahoma City,OK,2018,40,Spokies
+343,OK00175,Tulsa,OK,2018,"62, 123","Townies, This Machine Tulsa"
+344,OR00175,Ashland,OR,2018,68,Zagster Jackson County
+345,OR00176,Corvallis,OR,2018,94,Corvallis
+346,OR00177,Eugene,OR,2018,112,"Eugene (JUMP, operator of Eugene bikeshare, acquired by LIME 06/2020)"
+347,OR00178,Medford,OR,2018,68,Zagster Jackson County
+348,OR00179,Portland,OR,2018,74,BikeTown Portland
+349,PA00180,Harrisburg,PA,2018,122,Harrisburg
+350,PA00181,Philadelphia,PA,2018,43,Inde'go
+351,PA00182,Pittsburgh,PA,2018,29,Healthy Ride (became POGOH in 2022)
+352,SC00184,Charleston,SC,2018,84,Holy Spokes
+353,SC00185,Greenville,SC,2018,44,Greenville B-cycle
+354,SC00186,Rock Hill,SC,2018,127,Comporium
+355,SC00187,Spartanburg,SC,2018,23,Spartanburg B-cycle
+356,SD00188,Rapid City,SD,2018,30,Rapid City B-cycle
+357,TN00189,Chattanooga,TN,2018,54,Bike Chattanooga
+358,TN00191,Memphis,TN,2018,118,Explore
+359,TN00192,Nashville,TN,2018,21,Nashville B-cycle
+360,TX00194,Austin,TX,2018,53,Austin B-cycle
+361,TX00195,Corpus Christi,TX,2018,92,Corpus Christi
+362,TX00198,El Paso,TX,2018,8,El Paso B-cycle
+363,TX00199,Fort Worth,TX,2018,10,Fort Worth B-cycle
+364,TX00201,Houston,TX,2018,17,Houston B-cycle
+365,TX00203,McAllen,TX,2018,28,McAllen B-cycle (RGV B-cycle)
+366,TX00205,San Antonio,TX,2018,22,San Antonio B-cycle
+367,UT00210,Salt Lake City,UT,2018,15,GreenBikes
+368,VA00215,Blacksburg,VA,2018,125,ROAM NRV
+369,VA00217,Danville,VA,2018,133,"City of Danville, VA"
+370,VA00220,Richmond,VA,2018,136,RVA Bike Share
+371,VA00221,Roanoke,VA,2018,106,Roanoke
+372,VT00223,Burlington,VT,2018,114,Greenride
+373,WI00228,Madison,WI,2018,20,Madison B-cycle
+374,WI00229,Milwaukee,WI,2018,50,Bublr Bikes
+375,WI00230,Superior,WI,2018,131,Superior
+376,WY00231,Jackson,WY,2018,115,START
+377,AL002,Huntsville,AL,2019,88,"Huntsville (became PACE, hybrid dockless, in 2018)"
+378,AZ006,Phoenix,AZ,2019,37,Grid
+379,AZ009,Tucson,AZ,2019,110,tugo
+380,CA0012,Beverly Hills,CA,2019,81,Beverly Hills Bikeshare
+381,CA0018,Long Beach,CA,2019,72,"Long Beach, CA Bikeshare"
+382,CA0019,Los Angeles,CA,2019,73,Metro Bike Share Los Angeles
+383,CA0023,Oakland,CA,2019,42,Bay Area BikeShare (became Ford GoBike 06/28/2017 then became Bay Wheels 06/2019)
+384,CA0026,San Francisco,CA,2019,42,Bay Area BikeShare (became Ford GoBike 06/28/2017 then became Bay Wheels 06/2019)
+385,CA0029,San Ramon,CA,2019,75,BriteBikes
+386,CA0033,Santa Monica,CA,2019,39,Breeze
+387,CO0038,Aspen,CO,2019,27,WE-cycle
+388,CO0040,Boulder,CO,2019,11,Boulder B-cycle
+389,CO0042,Denver,CO,2019,7,Denver B-cycle
+390,CO0045,Longmont,CO,2019,90,Longmont
+391,CT00240,New Haven,CT,2019,137,Bike New Haven
+392,DC0046,Washington,DC,2019,56,Capital Bikeshare
+393,FL00248,Fort Pierce/Port St Lucie,FL,2019,138,St Lucie County
+394,FL0047,Aventura,FL,2019,85,Aventura
+395,FL0050,Fort Lauderdale,FL,2019,12,Broward B-cycle
+396,FL0055,Miami,FL,2019,5,Citi Bike Miami
+397,FL0064,Tampa,FL,2019,33,Coast Bike Share
+398,GA0066,Atlanta,GA,2019,77,Relay Bike Share
+399,GA0067,Carrollton,GA,2019,91,Carrollton
+400,GA0068,Evans,GA,2019,45,Columbia County B-cycle
+401,GA0070,Smyrna,GA,2019,70,Smyrna Bike Share
+402,HI0072,Honolulu,HI,2019,111,Hawaii Bikibike
+403,IA0073,Des Moines,IA,2019,14,Des Moines B-cycle
+404,ID0075,Boise,ID,2019,36,Boise Green Bike
+405,IL0077,Aurora,IL,2019,95,Aurora
+406,IL0078,Bloomington,IL,2019,100,Normal (Bikeshare 309)
+407,IL0079,Chicago,IL,2019,60,Divvy
+408,IL0080,Peoria,IL,2019,107,Peoria
+409,IN0082,Carmel,IN,2019,64,Carmel Bike Share
+410,IN0087,Indianapolis,IN,2019,48,Indiana Pacers Bikeshare
+411,KS0089,Salina,KS,2019,135,KANcycle
+412,KS0090,Topeka,KS,2019,34,Topeka Metro Bikes
+413,KS0091,Wichita,KS,2019,89,Wichita
+414,KY0093,Louisville,KY,2019,102,Lou Velo
+415,LA00252,Baton Rouge,LA,2019,151,Gotcha
+416,LA0094,New Orleans,LA,2019,109,New Orleans Bikeshare
+417,MA00103,Marlborough,MA,2019,132,"City of Marlborough, MA"
+418,MA00111,Salem,MA,2019,108,Salem
+419,MA00249,Amherst,MA,2019,139,ValleyBike
+420,MA0098,Boston,MA,2019,1,Hubway (03/2018 re-launched as Blue Bikes)
+421,MD00118,Boyds,MD,2019,134,Montgomery Parks
+422,MD00124,Columbia,MD,2019,141,Howard County Bikeshare
+423,MI00125,Ann Arbor,MI,2019,4,arborbike
+424,MI00126,Battle Creek,MI,2019,49,Battle Creek B-cycle
+425,MI00127,Dearborn,MI,2019,103,Dearborn
+426,MI00128,Detroit,MI,2019,101,Mo Go
+427,MN00132,Minneapolis,MN,2019,25,Nice Ride Minnesota (became partially dockless in 2018)
+428,MO00137,Kansas City,MO,2019,18,Kansas City B-cycle
+429,NC00139,Charlotte,NC,2019,13,Charlotte B-cycle (became JoyRides Sep-2020)
+430,NC00142,Raleigh,NC,2019,140,Citrix Bikeshare (became Cardinal bikeshare in May-2022)
+431,NC00143,Winston-Salem,NC,2019,105,Winston-Salem
+432,ND00144,Fargo,ND,2019,51,Great Rides
+433,NE00145,Lincoln,NE,2019,120,BikeLNK
+434,NE00146,Omaha,NE,2019,16,Heartland B-cycle
+435,NH00147,Manchester,NH,2019,104,Manchester
+436,NH00148,Portsmouth,NH,2019,87,Portsmouth
+437,NJ00149,Hoboken,NJ,2019,2,Hudson Bike Share (now part of CitiBike)
+438,NJ00151,Morristown,NJ,2019,130,Morris Moves
+439,NV00154,Las Vegas,NV,2019,78,RTC Bikeshare
+440,NY00156,Albany,NY,2019,113,CDPHP
+441,NY00157,Buffalo,NY,2019,76,Reddy Bikes
+442,NY00160,New York,NY,2019,3,Citi Bike
+443,OH00164,Cincinnati,OH,2019,57,Cincy RedBike Bike
+444,OH00166,Columbus,OH,2019,58,COGO
+445,OH00167,Dayton,OH,2019,47,Link Dayton B-cycle
+446,OH00171,Toledo,OH,2019,126,ToleGo
+447,OK00173,Oklahoma City,OK,2019,40,Spokies
+448,OK00175,Tulsa,OK,2019,"62, 123","Townies, This Machine Tulsa"
+449,OR00175,Ashland,OR,2019,68,Zagster Jackson County
+450,OR00176,Corvallis,OR,2019,94,Corvallis
+451,OR00177,Eugene,OR,2019,112,"Eugene (JUMP, operator of Eugene bikeshare, acquired by LIME 06/2020)"
+452,OR00178,Medford,OR,2019,68,Zagster Jackson County
+453,OR00179,Portland,OR,2019,74,BikeTown Portland
+454,PA00180,Harrisburg,PA,2019,122,Harrisburg
+455,PA00181,Philadelphia,PA,2019,43,Inde'go
+456,PA00182,Pittsburgh,PA,2019,29,Healthy Ride (became POGOH in 2022)
+457,SC00184,Charleston,SC,2019,84,Holy Spokes
+458,SC00185,Greenville,SC,2019,44,Greenville B-cycle
+459,SC00186,Rock Hill,SC,2019,127,Comporium
+460,SC00187,Spartanburg,SC,2019,23,Spartanburg B-cycle
+461,TN00189,Chattanooga,TN,2019,54,Bike Chattanooga
+462,TN00191,Memphis,TN,2019,118,Explore
+463,TN00192,Nashville,TN,2019,21,Nashville B-cycle
+464,TX00194,Austin,TX,2019,"53, 124","Austin B-cycle, Domain"
+465,TX00195,Corpus Christi,TX,2019,92,Corpus Christi
+466,TX00198,El Paso,TX,2019,8,El Paso B-cycle
+467,TX00199,Fort Worth,TX,2019,10,Fort Worth B-cycle
+468,TX00201,Houston,TX,2019,17,Houston B-cycle
+469,TX00203,McAllen,TX,2019,28,McAllen B-cycle (RGV B-cycle)
+470,TX00205,San Antonio,TX,2019,22,San Antonio B-cycle
+471,UT00210,Salt Lake City,UT,2019,15,GreenBikes
+472,VA00215,Blacksburg,VA,2019,125,ROAM NRV
+473,VA00217,Danville,VA,2019,133,"City of Danville, VA"
+474,VA00220,Richmond,VA,2019,136,RVA Bike Share
+475,VA00221,Roanoke,VA,2019,106,Roanoke
+476,VT00223,Burlington,VT,2019,114,Greenride
+477,WI00228,Madison,WI,2019,20,Madison B-cycle
+478,WI00229,Milwaukee,WI,2019,50,Bublr Bikes
+479,WI00230,Superior,WI,2019,131,Superior
+480,WY00231,Jackson,WY,2019,115,START
+481,AZ009,Tucson,AZ,2020,110,tugo
+482,CA0012,Beverly Hills,CA,2020,81,Beverly Hills Bikeshare
+483,CA0018,Long Beach,CA,2020,72,"Long Beach, CA Bikeshare"
+484,CA0019,Los Angeles,CA,2020,73,Metro Bike Share Los Angeles
+485,CA0023,Oakland,CA,2020,42,Bay Area BikeShare (became Ford GoBike 06/28/2017 then became Bay Wheels 06/2019)
+486,CA0026,San Francisco,CA,2020,42,Bay Area BikeShare (became Ford GoBike 06/28/2017 then became Bay Wheels 06/2019)
+487,CO0038,Aspen,CO,2020,27,WE-cycle
+488,CO0040,Boulder,CO,2020,11,Boulder B-cycle
+489,DC0046,Washington,DC,2020,56,Capital Bikeshare
+490,FL0047,Aventura,FL,2020,85,Aventura
+491,FL0050,Fort Lauderdale,FL,2020,12,Broward B-cycle
+492,FL0055,Miami,FL,2020,5,Citi Bike Miami
+493,FL0064,Tampa,FL,2020,33,Coast Bike Share
+494,GA0066,Atlanta,GA,2020,77,Relay Bike Share
+495,GA0068,Evans,GA,2020,45,Columbia County B-cycle
+496,HI0072,Honolulu,HI,2020,111,Hawaii Bikibike
+497,IA0073,Des Moines,IA,2020,14,Des Moines B-cycle
+498,IL0079,Chicago,IL,2020,60,Divvy
+499,IN0087,Indianapolis,IN,2020,48,Indiana Pacers Bikeshare
+500,KY0093,Louisville,KY,2020,102,Lou Velo
+501,LA00252,Baton Rouge,LA,2020,151,Gotcha
+502,MA00249,Amherst,MA,2020,139,ValleyBike
+503,MA0098,Boston,MA,2020,1,Hubway (03/2018 re-launched as Blue Bikes)
+504,MD00124,Columbia,MD,2020,141,Howard County Bikeshare
+505,MI00126,Battle Creek,MI,2020,49,Battle Creek B-cycle
+506,MI00128,Detroit,MI,2020,101,Mo Go
+507,MN00132,Minneapolis,MN,2020,25,Nice Ride Minnesota (became partially dockless in 2018)
+508,MO00137,Kansas City,MO,2020,18,Kansas City B-cycle
+509,NC00139,Charlotte,NC,2020,13,Charlotte B-cycle (became JoyRides Sep-2020)
+510,NC00142,Raleigh,NC,2020,140,Citrix Bikeshare (became Cardinal bikeshare in May-2022)
+511,NE00145,Lincoln,NE,2020,120,BikeLNK
+512,NE00146,Omaha,NE,2020,16,Heartland B-cycle
+513,NE00147,Valentine,NE,2020,143,Valentine Bcycle
+514,NJ00149,Hoboken,NJ,2020,2,Hudson Bike Share (now part of CitiBike)
+515,NV00154,Las Vegas,NV,2020,78,RTC Bikeshare
+516,NY00156,Albany,NY,2020,113,CDPHP
+517,NY00157,Buffalo,NY,2020,76,Reddy Bikes
+518,NY00160,New York,NY,2020,3,Citi Bike
+519,OH00164,Cincinnati,OH,2020,57,Cincy RedBike Bike
+520,OH00166,Columbus,OH,2020,58,COGO
+521,OH00167,Dayton,OH,2020,47,Link Dayton B-cycle
+522,OH00171,Toledo,OH,2020,126,ToleGo
+523,OK00175,Tulsa,OK,2020,"62, 123","Townies, This Machine Tulsa"
+524,OR00177,Eugene,OR,2020,112,"Eugene (JUMP, operator of Eugene bikeshare, acquired by LIME 06/2020)"
+525,OR00179,Portland,OR,2020,74,BikeTown Portland
+526,PA00181,Philadelphia,PA,2020,43,Inde'go
+527,PA00182,Pittsburgh,PA,2020,29,Healthy Ride (became POGOH in 2022)
+528,SC00184,Charleston,SC,2020,84,Holy Spokes
+529,SC00186,Rock Hill,SC,2020,127,Comporium
+530,SC00187,Spartanburg,SC,2020,23,Spartanburg B-cycle
+531,TN00189,Chattanooga,TN,2020,54,Bike Chattanooga
+532,TN00191,Memphis,TN,2020,118,Explore
+533,TN00192,Nashville,TN,2020,21,Nashville B-cycle
+534,TX00194,Austin,TX,2020,53,Austin B-cycle
+535,TX00198,El Paso,TX,2020,8,El Paso B-cycle
+536,TX00199,Fort Worth,TX,2020,10,Fort Worth B-cycle
+537,TX00201,Houston,TX,2020,17,Houston B-cycle
+538,TX00203,McAllen,TX,2020,28,McAllen B-cycle (RGV B-cycle)
+539,TX00205,San Antonio,TX,2020,22,San Antonio B-cycle
+540,UT00210,Salt Lake City,UT,2020,15,GreenBikes
+541,VA00215,Blacksburg,VA,2020,125,ROAM NRV
+542,VA00220,Richmond,VA,2020,136,RVA Bike Share
+543,VT00223,Burlington,VT,2020,114,Greenride
+544,WI00228,Madison,WI,2020,20,Madison B-cycle
+545,WI00229,Milwaukee,WI,2020,50,Bublr Bikes
+546,WY00231,Jackson,WY,2020,115,START
+547,AZ009,Tucson,AZ,2021,110,tugo
+548,CA0012,Beverly Hills,CA,2021,81,Beverly Hills Bikeshare
+549,CA0018,Long Beach,CA,2021,72,"Long Beach, CA Bikeshare"
+550,CA0019,Los Angeles,CA,2021,73,Metro Bike Share Los Angeles
+551,CA0023,Oakland,CA,2021,42,Bay Area BikeShare (became Ford GoBike 06/28/2017 then became Bay Wheels 06/2019)
+552,CA00251,Richmond,CA,2021,150,Gotcha (ended Jul-2022 and re-launched in Sep-2022 as LEAP)
+553,CA0026,San Francisco,CA,2021,42,Bay Area BikeShare (became Ford GoBike 06/28/2017 then became Bay Wheels 06/2019)
+554,CA0030,Santa Barbara,CA,2021,142,Santa Barbara Bcycle
+555,CO0038,Aspen,CO,2021,27,WE-cycle
+556,CO0040,Boulder,CO,2021,11,Boulder B-cycle
+557,DC0046,Washington,DC,2021,56,Capital Bikeshare
+558,FL00253,St. Augustine,FL,2021,164,Gotcha
+559,FL0047,Aventura,FL,2021,85,Aventura
+560,FL0050,Fort Lauderdale,FL,2021,12,Broward B-cycle
+561,FL0055,Miami,FL,2021,5,Citi Bike Miami
+562,FL0064,Tampa,FL,2021,33,Coast Bike Share
+563,GA0066,Atlanta,GA,2021,77,Relay Bike Share
+564,HI0072,Honolulu,HI,2021,111,Hawaii Bikibike
+565,IA0073,Des Moines,IA,2021,14,Des Moines B-cycle
+566,IL0079,Chicago,IL,2021,60,Divvy
+567,IN0087,Indianapolis,IN,2021,48,Indiana Pacers Bikeshare
+568,KY0093,Louisville,KY,2021,102,Lou Velo
+569,LA00252,Baton Rouge,LA,2021,151,Gotcha
+570,MA00249,Amherst,MA,2021,139,ValleyBike
+571,MA0098,Boston,MA,2021,1,Hubway (03/2018 re-launched as Blue Bikes)
+572,MD00124,Columbia,MD,2021,141,Howard County Bikeshare
+573,MI00128,Detroit,MI,2021,101,Mo Go
+574,MN00132,Minneapolis,MN,2021,25,Nice Ride Minnesota (became partially dockless in 2018)
+575,NC00139,Charlotte,NC,2021,13,Charlotte B-cycle (became JoyRides Sep-2020)
+576,NC00142,Raleigh,NC,2021,140,Citrix Bikeshare (became Cardinal bikeshare in May-2022)
+577,NE00145,Lincoln,NE,2021,120,BikeLNK
+578,NE00146,Omaha,NE,2021,16,Heartland B-cycle
+579,NE00147,Valentine,NE,2021,143,Valentine Bcycle
+580,NV00154,Las Vegas,NV,2021,78,RTC Bikeshare
+581,NY00156,Albany,NY,2021,113,CDPHP
+582,NY00157,Buffalo,NY,2021,76,Reddy Bikes
+583,NY00160,New York,NY,2021,3,Citi Bike
+584,OH00164,Cincinnati,OH,2021,57,Cincy RedBike Bike
+585,OH00166,Columbus,OH,2021,58,COGO
+586,OH00167,Dayton,OH,2021,47,Link Dayton B-cycle
+587,OK00175,Tulsa,OK,2021,123,This Machine Tulsa
+588,OR00177,Eugene,OR,2021,112,"Eugene (JUMP, operator of Eugene bikeshare, acquired by LIME 06/2020)"
+589,OR00179,Portland,OR,2021,74,BikeTown Portland
+590,PA00181,Philadelphia,PA,2021,43,Inde'go
+591,PA00182,Pittsburgh,PA,2021,29,Healthy Ride (became POGOH in 2022)
+592,SC00184,Charleston,SC,2021,84,Holy Spokes
+593,SC00185,Greenville,SC,2021,44,Greenville B-cycle
+594,SC00186,Rock Hill,SC,2021,127,Comporium
+595,SC00187,Spartanburg,SC,2021,23,Spartanburg B-cycle
+596,TN00189,Chattanooga,TN,2021,54,Bike Chattanooga
+597,TN00191,Memphis,TN,2021,118,Explore
+598,TN00192,Nashville,TN,2021,21,Nashville B-cycle
+599,TX00194,Austin,TX,2021,53,Austin B-cycle
+600,TX00198,El Paso,TX,2021,8,El Paso B-cycle
+601,TX00199,Fort Worth,TX,2021,10,Fort Worth B-cycle
+602,TX00201,Houston,TX,2021,17,Houston B-cycle
+603,TX00203,McAllen,TX,2021,28,McAllen B-cycle (RGV B-cycle)
+604,TX00205,San Antonio,TX,2021,22,San Antonio B-cycle
+605,UT00210,Salt Lake City,UT,2021,15,GreenBikes
+606,VA00215,Blacksburg,VA,2021,125,ROAM NRV
+607,VA00220,Richmond,VA,2021,136,RVA Bike Share
+608,VT00223,Burlington,VT,2021,114,Greenride
+609,WI00228,Madison,WI,2021,20,Madison B-cycle
+610,WI00229,Milwaukee,WI,2021,50,Bublr Bikes
+611,WI00238,Manitowish Waters,WI,2021,156,River's Edge B-cycle
+612,WY00231,Jackson,WY,2021,115,START
+613,AZ009,Tucson,AZ,2022,110,tugo
+614,CA0018,Long Beach,CA,2022,72,"Long Beach, CA Bikeshare"
+615,CA0019,Los Angeles,CA,2022,73,Metro Bike Share Los Angeles
+616,CA0023,Oakland,CA,2022,42,Bay Area BikeShare (became Ford GoBike 06/28/2017 then became Bay Wheels 06/2019)
+617,CA00251,Richmond,CA,2022,"150, 150","Gotcha (ended Jul-2022 and re-launched in Sep-2022 as LEAP), LEAP"
+618,CA0026,San Francisco,CA,2022,42,Bay Area BikeShare (became Ford GoBike 06/28/2017 then became Bay Wheels 06/2019)
+619,CA0030,Santa Barbara,CA,2022,142,Santa Barbara Bcycle
+620,CA0040,Encinitas,CA,2022,153,Encinitas Bcycle
+621,CO0038,Aspen,CO,2022,27,WE-cycle
+622,CO0040,Boulder,CO,2022,11,Boulder B-cycle
+623,DC0046,Washington,DC,2022,56,Capital Bikeshare
+624,FL00253,St. Augustine,FL,2022,164,Gotcha
+625,FL0047,Aventura,FL,2022,85,Aventura
+626,FL0050,Fort Lauderdale,FL,2022,12,Broward B-cycle
+627,FL0055,Miami,FL,2022,5,Citi Bike Miami
+628,FL0064,Tampa,FL,2022,33,Coast Bike Share
+629,GA0066,Atlanta,GA,2022,77,Relay Bike Share
+630,HI0072,Honolulu,HI,2022,111,Hawaii Bikibike
+631,IA0073,Des Moines,IA,2022,14,Des Moines B-cycle
+632,IL0079,Chicago,IL,2022,60,Divvy
+633,IN0087,Indianapolis,IN,2022,48,Indiana Pacers Bikeshare
+634,KY0093,Louisville,KY,2022,102,Lou Velo
+635,LA00252,Baton Rouge,LA,2022,151,Gotcha
+636,MA00249,Amherst,MA,2022,139,ValleyBike
+637,MA0098,Boston,MA,2022,1,Hubway (03/2018 re-launched as Blue Bikes)
+638,MI00128,Detroit,MI,2022,101,Mo Go
+639,MN00132,Minneapolis,MN,2022,25,Nice Ride Minnesota (became partially dockless in 2018)
+640,NC00139,Charlotte,NC,2022,13,Charlotte B-cycle (became JoyRides Sep-2020)
+641,NC00142,Raleigh,NC,2022,140,Citrix Bikeshare (became Cardinal bikeshare in May-2022)
+642,ND00145,Bismarck,ND,2022,163,BisParks
+643,NE00145,Lincoln,NE,2022,120,BikeLNK
+644,NE00146,Omaha,NE,2022,16,Heartland B-cycle
+645,NE00147,Valentine,NE,2022,143,Valentine Bcycle
+646,NV00154,Las Vegas,NV,2022,78,RTC Bikeshare
+647,NY00156,Albany,NY,2022,113,CDPHP
+648,NY00157,Buffalo,NY,2022,76,Reddy Bikes
+649,NY00160,New York,NY,2022,3,Citi Bike
+650,OH00164,Cincinnati,OH,2022,57,Cincy RedBike Bike
+651,OH00166,Columbus,OH,2022,58,COGO
+652,OH00167,Dayton,OH,2022,47,Link Dayton B-cycle
+653,OK00175,Tulsa,OK,2022,123,This Machine Tulsa
+654,OR00177,Eugene,OR,2022,112,"Eugene (JUMP, operator of Eugene bikeshare, acquired by LIME 06/2020)"
+655,OR00179,Portland,OR,2022,74,BikeTown Portland
+656,PA00181,Philadelphia,PA,2022,43,Inde'go
+657,PA00182,Pittsburgh,PA,2022,29,Healthy Ride (became POGOH in 2022)
+658,SC00185,Greenville,SC,2022,44,Greenville B-cycle
+659,TN00189,Chattanooga,TN,2022,54,Bike Chattanooga
+660,TN00191,Memphis,TN,2022,118,Explore
+661,TN00192,Nashville,TN,2022,21,Nashville B-cycle
+662,TX00194,Austin,TX,2022,53,Austin B-cycle
+663,TX00198,El Paso,TX,2022,8,El Paso B-cycle
+664,TX00199,Fort Worth,TX,2022,10,Fort Worth B-cycle
+665,TX00201,Houston,TX,2022,17,Houston B-cycle
+666,TX00203,McAllen,TX,2022,28,McAllen B-cycle (RGV B-cycle)
+667,TX00205,San Antonio,TX,2022,22,San Antonio B-cycle
+668,UT00210,Salt Lake City,UT,2022,15,GreenBikes
+669,UT00216,Park City,UT,2022,160,Summit Bike Share
+670,VA00215,Blacksburg,VA,2022,125,ROAM NRV
+671,VA00220,Richmond,VA,2022,136,RVA Bike Share
+672,VT00223,Burlington,VT,2022,114,Greenride
+673,WI00228,Madison,WI,2022,20,Madison B-cycle
+674,WI00229,Milwaukee,WI,2022,50,Bublr Bikes
+675,WI00238,Manitowish Waters,WI,2022,156,River's Edge B-cycle
+676,WY00231,Jackson,WY,2022,115,START
+677,AZ009,Tucson,AZ,2023,110,tugo
+678,CA0018,Long Beach,CA,2023,72,"Long Beach, CA Bikeshare"
+679,CA0019,Los Angeles,CA,2023,73,Metro Bike Share Los Angeles
+680,CA0023,Oakland,CA,2023,42,Bay Area BikeShare (became Ford GoBike 06/28/2017 then became Bay Wheels 06/2019)
+681,CA0026,San Francisco,CA,2023,42,Bay Area BikeShare (became Ford GoBike 06/28/2017 then became Bay Wheels 06/2019)
+682,CA0030,Santa Barbara,CA,2023,142,Santa Barbara Bcycle
+683,CA0032,Santa Cruz,CA,2023,165,Santa Cruz B-cycle
+684,CA0035,Redding,CA,2023,157,Redding Bikeshare
+685,CA0040,Encinitas,CA,2023,153,Encinitas Bcycle
+686,CA0042,Truckee,CA,2023,159,Truckee B-cycle
+687,CO00250,Breckenridge,CO,2023,166,Breckenridge
+688,CO0038,Aspen,CO,2023,27,WE-cycle
+689,CO0040,Boulder,CO,2023,11,Boulder B-cycle
+690,DC0046,Washington,DC,2023,56,Capital Bikeshare
+691,FL0047,Aventura,FL,2023,85,Aventura
+692,FL0050,Fort Lauderdale,FL,2023,12,Broward B-cycle
+693,FL0055,Miami,FL,2023,5,Citi Bike Miami
+694,HI0072,Honolulu,HI,2023,111,Hawaii Bikibike
+695,IA0073,Des Moines,IA,2023,14,Des Moines B-cycle
+696,IL0079,Chicago,IL,2023,60,Divvy
+697,IN0087,Indianapolis,IN,2023,48,Indiana Pacers Bikeshare
+698,KY0093,Louisville,KY,2023,102,Lou Velo
+699,MA0098,Boston,MA,2023,1,Hubway (03/2018 re-launched as Blue Bikes)
+700,MI00128,Detroit,MI,2023,101,Mo Go
+701,NC00139,Charlotte,NC,2023,13,Charlotte B-cycle (became JoyRides Sep-2020)
+702,NC00142,Raleigh,NC,2023,140,Citrix Bikeshare (became Cardinal bikeshare in May-2022)
+703,ND00145,Bismarck,ND,2023,163,BisParks
+704,NE00145,Lincoln,NE,2023,120,BikeLNK
+705,NE00146,Omaha,NE,2023,16,Heartland B-cycle
+706,NE00147,Valentine,NE,2023,143,Valentine Bcycle
+707,NV00154,Las Vegas,NV,2023,78,RTC Bikeshare
+708,NY00156,Albany,NY,2023,113,CDPHP
+709,NY00157,Buffalo,NY,2023,76,Reddy Bikes
+710,NY00160,New York,NY,2023,3,Citi Bike
+711,OH00164,Cincinnati,OH,2023,57,Cincy RedBike Bike
+712,OH00166,Columbus,OH,2023,58,COGO
+713,OH00167,Dayton,OH,2023,47,Link Dayton B-cycle
+714,OK00175,Tulsa,OK,2023,123,This Machine Tulsa
+715,OR00177,Eugene,OR,2023,112,"Eugene (JUMP, operator of Eugene bikeshare, acquired by LIME 06/2020)"
+716,OR00179,Portland,OR,2023,74,BikeTown Portland
+717,PA00181,Philadelphia,PA,2023,43,Inde'go
+718,PA00182,Pittsburgh,PA,2023,29,Healthy Ride (became POGOH in 2022)
+719,PA00183,Meadville,PA,2023,162,Meadville/Lake Wilhelm Bikeshare
+720,SC00185,Greenville,SC,2023,44,Greenville B-cycle
+721,TN00189,Chattanooga,TN,2023,54,Bike Chattanooga
+722,TN00191,Memphis,TN,2023,118,Explore
+723,TN00192,Nashville,TN,2023,21,Nashville B-cycle
+724,TX00194,Austin,TX,2023,53,Austin B-cycle
+725,TX00198,El Paso,TX,2023,8,El Paso B-cycle
+726,TX00199,Fort Worth,TX,2023,10,Fort Worth B-cycle
+727,TX00201,Houston,TX,2023,17,Houston B-cycle
+728,TX00203,McAllen,TX,2023,28,McAllen B-cycle (RGV B-cycle)
+729,TX00205,San Antonio,TX,2023,22,San Antonio B-cycle
+730,UT00210,Salt Lake City,UT,2023,15,GreenBikes
+731,UT00216,Park City,UT,2023,160,Summit Bike Share
+732,WI00228,Madison,WI,2023,20,Madison B-cycle
+733,WI00229,Milwaukee,WI,2023,50,Bublr Bikes
+734,WI00238,Manitowish Waters,WI,2023,156,River's Edge B-cycle
+735,WA00225,Seattle,WA,2017,26,Pronto
+736,CA0028,San Mateo,CA,2018,83,Bay Bikes (became DOCKLESS Lime Bikes in 2018)
+737,CO0043,Fort Collins,CO,2018,65,Fort Collins Bike Share (became PACE dockless in 2018)
+738,GA0069,Savannah,GA,2018,46,CAT B-cycle
+739,IN00233,Fort Wayne,IN,2018,98,Fort Wayne
+740,MD00117,Baltimore,MD,2018,82,Baltimore Bikeshare
+741,NM00153,Albuquerque,NM,2018,38,Bici (became PACE dockless in 2018)
+742,AL001,Birmingham,AL,2019,63,Zyp BikeShare
+743,CA0025,San Diego,CA,2019,59,DiscoverBike (was DecoBike in 2016 and 2017)
+744,CA0037,West Hollywood,CA,2019,80,WeHo Pedals
+745,FL0061,Orlando,FL,2019,32,Juice
+746,FL0065,West Palm Beach,FL,2019,31,Sky Bike WPB
+747,ID0076,Hailey,ID,2019,35,MR Bike Share
+748,IN0083,Columbus,IN,2019,86,columBike
+749,MD00119,College Park,MD,2019,97,College Park
+750,OH00165,Cleveland,OH,2019,79,UH Bikes
+751,SD00188,Rapid City,SD,2019,30,Rapid City B-cycle
+752,AL002,Huntsville,AL,2020,88,"Huntsville (became PACE, hybrid dockless, in 2018)"
+753,AZ006,Phoenix,AZ,2020,37,Grid
+754,CA0029,San Ramon,CA,2020,75,BriteBikes
+755,CA0033,Santa Monica,CA,2020,39,Breeze
+756,CO0042,Denver,CO,2020,7,Denver B-cycle
+757,CO0045,Longmont,CO,2020,90,Longmont
+758,CT00240,New Haven,CT,2020,137,Bike New Haven
+759,FL00248,Fort Pierce/Port St Lucie,FL,2020,138,St Lucie County
+760,GA0067,Carrollton,GA,2020,91,Carrollton
+761,GA0070,Smyrna,GA,2020,70,Smyrna Bike Share
+762,ID0075,Boise,ID,2020,36,Boise Green Bike
+763,IL0077,Aurora,IL,2020,95,Aurora
+764,IL0078,Bloomington,IL,2020,100,Normal (Bikeshare 309)
+765,IL0080,Peoria,IL,2020,107,Peoria
+766,IN0082,Carmel,IN,2020,64,Carmel Bike Share
+767,KS0089,Salina,KS,2020,135,KANcycle
+768,KS0090,Topeka,KS,2020,34,Topeka Metro Bikes
+769,KS0091,Wichita,KS,2020,89,Wichita
+770,LA0094,New Orleans,LA,2020,109,New Orleans Bikeshare
+771,MA00103,Marlborough,MA,2020,132,"City of Marlborough, MA"
+772,MA00111,Salem,MA,2020,108,Salem
+773,MD00118,Boyds,MD,2020,134,Montgomery Parks
+774,MI00127,Dearborn,MI,2020,103,Dearborn
+775,NC00143,Winston-Salem,NC,2020,105,Winston-Salem
+776,ND00144,Fargo,ND,2020,51,Great Rides
+777,NH00147,Manchester,NH,2020,104,Manchester
+778,NH00148,Portsmouth,NH,2020,87,Portsmouth
+779,NJ00151,Morristown,NJ,2020,130,Morris Moves
+780,OK00173,Oklahoma City,OK,2020,40,Spokies
+781,OR00175,Ashland,OR,2020,68,Zagster Jackson County
+782,OR00176,Corvallis,OR,2020,94,Corvallis
+783,OR00178,Medford,OR,2020,68,Zagster Jackson County
+784,PA00180,Harrisburg,PA,2020,122,Harrisburg
+785,TX00195,Corpus Christi,TX,2020,92,Corpus Christi
+786,VA00217,Danville,VA,2020,133,"City of Danville, VA"
+787,VA00221,Roanoke,VA,2020,106,Roanoke
+788,WI00230,Superior,WI,2020,131,Superior
+789,NJ00149,Hoboken,NJ,2021,2,Hudson Bike Share (now part of CitiBike)
+790,MD00124,Columbia,MD,2022,141,Howard County Bikeshare
+791,SC00184,Charleston,SC,2022,84,Holy Spokes
+792,SC00186,Rock Hill,SC,2022,127,Comporium
+793,FL0064,Tampa,FL,2023,33,Coast Bike Share
+794,GA0066,Atlanta,GA,2023,77,Relay Bike Share
+795,VA00220,Richmond,VA,2023,136,RVA Bike Share
